@@ -1,0 +1,1 @@
+Welcome to the Flower Power project! This web development endeavor aims to create an immersive online platform dedicated to the beauty and wonder of flowers. Flower Power is not just a website; it's an experience designed to evoke emotions, inspire creativity, and spread joy.This website is completely responsive.

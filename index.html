@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beatiful Flowers Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+     <!-- animation  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+     <!--  -->
+  </head>
+  <body>
+    <!-- Nav-bar Section -->
+    <nav class="nav-bar">
+      
+      <h1 class="logo">Flower</h1>
+      <ul id="menu-list">
+        <li><a href="#home-sec" class="link">Home</a></li>
+        <li><a href="#about-sec" class="link">About</a></li>
+        <li><a href="#product-sec" class="link">Products</a></li>
+        <li><a href="#review-sec" class="link">Review</a></li>
+        <li><a href="#contact-sec" class="link">Contact</a></li>
+        <i class="fas fa-close close-icon" onclick="closeMenu()"></i>
+      </ul>
+
+      <div class="nav-icons">
+        <i class="fas fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>  
+      </div>
+
+      <i class="fas fa-bars open-icon" onclick="openMenu()"></i>
+
+    </nav>
+
+    <!-- Header Section -->
+
+    <section class="header" id="home-sec">
+      <div class="header-content">
+        <h1>Fresh Flowers</h1>
+        <h2>Natural & Beautiful Flowers</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+          quos doloremque magni iste repellendus voluptatem.
+        </p>
+        <button class="btn">Shop Now</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about" id="about-sec">
+      <h1 class="heading"><span class="sp-heading">About</span> Us</h1>
+      <div class="about-content">
+        <video
+          src="./flowers-images/last1.mp4"
+          autoplay
+          controls
+          loop
+          muted
+          type="video"
+          class="vid"
+          data-aos="fade-down-left"
+        ></video>
+        <div class="a-content" data-aos="fade-down-right">
+          <h1>Why Choose Us</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+            repellendus maxime tempore ducimus, sapiente corrupti harum,
+            quisquam sit quae, ad maiores vero expedita commodi? Consequuntur,
+            harum. Iure uiiuj nnionn. <br /><br />sapiente corrupti harum,
+            quisquam sit quae, ad maiores vero expedita commodi? Consequuntur,
+            harum. Iure consequatur ullam sit nmbvc hghj.
+          </p>
+          <button class="sp-btn">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ -->
+
+    <!-- cards section -->
+    <section class="cards-section">
+    <div class="cards-container">
+      <div class="card" data-aos="fade-left">
+        <img
+          src="./flowers-images/shipping-icon.png"
+          alt="an iamge"
+          class="card-icon"
+        />
+        <div>
+          <h2>Free shipping</h2>
+          <p>On All Orders</p>
+        </div>
+      </div>
+
+      <div class="card" data-aos="fade-right">
+        <img
+          src="./flowers-images/money-icon.png"
+          alt="an iamge"
+          class="card-icon"
+        />
+        <div>
+          <h2>10 Days Returns</h2>
+          <p>Moneyback Guarantee</p>
+        </div>
+      </div>
+
+      <div class="card" data-aos="fade-left">
+        <img
+          src="./flowers-images/gift-icon.png"
+          alt="an iamge"
+          class="card-icon"
+        />
+        <div>
+          <h2>Offer & Gift</h2>
+          <p>On All Orders</p>
+        </div>
+      </div>
+
+      <div class="card" data-aos="fade-right">
+        <img
+          src="./flowers-images/payment-icon.png"
+          alt="an iamge"
+          class="card-icon"
+        />
+        <div>
+          <h2>Secure Payment</h2>
+          <p>Protected By PayPal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ------------------------------------------------------------------ -->
+
+    <!-- Products Section -->
+    <section class="products-section" id="product-sec">
+      <h1 class="heading">Latest <span class="sp-heading">Products</span></h1>
+      <div class="products-block">
+        <!-- product -->
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-10%</p>
+          <img
+            src="./flowers-images/f14.webp"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$25.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-15%</p>
+          <img
+            src="./flowers-images/f12.jpg"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$35.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-5%</p>
+          <img
+            src="./flowers-images/f3.webp"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$15.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-10%</p>
+          <img
+            src="./flowers-images/f11.jpg"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$35.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-26%</p>
+          <img
+            src="./flowers-images/f10.jpg"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$28.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-17%</p>
+          <img
+            src="./flowers-images/f9.jpg"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$15.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-22%</p>
+          <img
+            src="./flowers-images/f7.webp"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$29.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-18%</p>
+          <img
+            src="./flowers-images/f15.webp"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$19.99 <span class="discount">$16.99</span></h1>
+        </div>
+
+        <div class="product" data-aos="zoom-in-up">
+          <p class="price-sp">-25%</p>
+          <img
+            src="./flowers-images/f1.jpg"
+            alt="an image"
+            class="product-image"
+          />
+          <h1>Flower Pot</h1>
+          <h1 class="price">$15.99 <span class="discount">$16.99</span></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------- -->
+
+    <!-- Customers Review Section -->
+
+    <section class="customer-reviews" id="review-sec">
+      <h1 class="heading">
+        Customers's <span class="sp-heading">Review</span>
+      </h1>
+      <div class="review-series">
+        <!-- 1st customer review -->
+        <div class="review-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <img
+            src="./flowers-images/stars-rating.jpg"
+            alt="stars image"
+            class="star-image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            alias officiis facilis laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.
+          </p>
+          <div class="customer-info">
+            <img
+              src="./flowers-images/cust2.jpg"
+              alt="customer dp"
+              class="customer-dp"
+            />
+            <div class="customer-name-block">
+              <h1>Geaorge Smith</h1>
+              <p>Happy Customer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd customer -->
+        <div class="review-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <img
+            src="./flowers-images/stars-rating.jpg"
+            alt="stars image"
+            class="star-image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            alias officiis facilis laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.
+          </p>
+          <div class="customer-info">
+            <img
+              src="./flowers-images/usr2.jpg"
+              alt="customer dp"
+              class="customer-dp"
+            />
+            <div class="customer-name-block">
+              <h1>Maxwell Smith</h1>
+              <p>Happy Customer</p>
+            </div>
+          </div>
+        </div>
+        <!-- 3rd customer review -->
+        <div class="review-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <img
+            src="./flowers-images/stars-rating.jpg"
+            alt="stars image"
+            class="star-image"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+            alias officiis facilis laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.laborum doloremque, delectus repellat esse
+            unde? Ab, distinctio.
+          </p>
+          <div class="customer-info">
+            <img
+              src="./flowers-images/user5.jpg"
+              alt="customer dp"
+              class="customer-dp"
+            />
+            <div class="customer-name-block">
+              <h1>Larance Smith</h1>
+              <p>Happy Customer</p>
+            </div>
+          </div>
+        </div>
+        <!-- -- -->
+      </div>
+    </section>
+
+    <!-- ----------------------------------------------------- -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact-sec">
+      <form action="#" class="input-form" data-aos="fade-down-left">
+        <input type="text" placeholder="name" class="input" />
+        <input type="text" placeholder="email" class="input" />
+        <textarea
+          type="text"
+          placeholder="message"
+          class="input message-input"
+        ></textarea>
+        <button class="btn send-btn">Send Message</button>
+      </form>
+      <img src="./flowers-images/dynamic-image.webp" alt="an image" class="dynamic-image" data-aos="fade-down-right">
+      <!-- <video src="./flowers-images/video4.mp4" type="video" autoplay loop controls muted class="contact-block-video"></video> -->
+    </section>
+
+    <!-- ----------------------------------------------------------------- -->
+
+    <!-- footer section -->
+
+    <section class="footer-section">
+      <div class="footer-content" data-aos="zoom-in-up">
+        <h1>Quick links</h1>
+        <a href="#home-sec">Home</a>
+        <a href="#about-sec">About</a>
+        <a href="#product-sec">Products</a>
+        <a href="#review-sec">Review</a>
+        <a href="#contact-sec">Contact</a>
+      </div>
+      <!--  -->
+
+      <div class="footer-content" data-aos="zoom-in-up">
+        <h1>Extra links</h1>
+        <a href="#">My Account</a>
+        <a href="#">My Order</a>
+        <a href="Products">My Favourite</a>
+      </div>
+      <!--  -->
+      <div class="footer-content" data-aos="zoom-in-up">
+        <h1>Locations</h1>
+        <a href="#">Pakistan</a>
+        <a href="#">China</a>
+        <a href="#">Japan</a>
+        <a href="#">France</a>
+        
+      </div>
+
+      <!--  -->
+      <div class="footer-content" data-aos="zoom-in-up">
+        <h1>Contact Info</h1>
+        <a href="#">+123-456-789</a>
+        <a href="#">abcd@gmail.com</a>
+        <a href="#">Lahore,pakistan 500501</a>
+        <div class="credit-cards">
+          <img src="./flowers-images/credit-cards.png" alt="credit cards image" class="credit-image">
+        </div>
+        
+      </div>
+  <!--     -->
+        </section>
+
+        <!-- ---------------------------------- -->
+
+        <div class="sub-footer">
+          <p>Created By <span class="sp-heading">Asia Ahmad Ali</span> | All Rights Reserved</p>
+        </div>
+
+        <!-- javascript for navbar -->
+
+        <script>
+          const menulist = document.getElementById('menu-list') ;
+
+             function openMenu()
+             {
+                 menulist.style.right='0px' ;
+             }
+
+             function closeMenu()
+             {
+                  menulist.style.right='-200px' ;
+             }
+        </script>
+
+          <!-- animation link -->
+           <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+            <script>
+               AOS.init();
+            </script>
+  </body>
+               
+</html>
